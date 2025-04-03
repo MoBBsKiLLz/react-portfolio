@@ -26,7 +26,7 @@ export default function Home() {
             <div className="border rounded-lg p-4">
               <Image src="/images/kaizenbox.png" alt="Project 1" width={400} height={250} />
               <h3 className="text-xl font-medium mt-2">Kaizen Box App</h3>
-              <p className="text-gray-600">KaizenBox is an inventory management app that simplifies tracking and organizing units in real time. Built with React, it offers search, unit updates, and deletion.</p>
+              <p className="text-gray-300">KaizenBox is an inventory management app that simplifies tracking and organizing units in real time. Built with React, it offers search, unit updates, and deletion.</p>
               <a href="https://github.com/MoBBsKiLLz/KaizenBoxApp" className="text-blue-500 hover:underline">View Project</a>
             </div>
             {/* Add more projects here */}
