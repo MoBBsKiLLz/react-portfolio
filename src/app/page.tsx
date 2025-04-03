@@ -14,7 +14,7 @@ export default function Home() {
           priority
         />
         <h1 className="text-3xl font-bold mt-4">Hello, I'm Miguel</h1>
-        <p className="text-lg text-gray-700 mt-2">I’m a passionate React developer focused on building clean, scalable web applications.</p>
+        <p className="text-lg text-gray-390 mt-2">I’m a passionate React developer focused on building clean, scalable web applications.</p>
       </header>
 
       {/* Main Content Area */}
