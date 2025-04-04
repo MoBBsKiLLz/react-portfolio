@@ -26,7 +26,7 @@ export default function Home() {
             <div className="border rounded-lg p-4">
               <Image src="/images/kaizenbox.png" alt="Project 1" width={400} height={250} />
               <h3 className="text-xl font-medium mt-2">Kaizen Box App</h3>
-              <p className="text-gray-300">KaizenBox is an inventory management app that simplifies tracking and organizing units in real time. Built with React, it offers search, unit updates, and deletion.</p>
+              <p className="text-gray-390">KaizenBox is an inventory management app that simplifies tracking and organizing units in real time. Built with React, it offers search, unit updates, and deletion.</p>
               <a href="https://github.com/MoBBsKiLLz/KaizenBoxApp" className="text-blue-500 hover:underline">View Project</a>
             </div>
             {/* Add more projects here */}
@@ -54,41 +54,20 @@ export default function Home() {
         </div>
       </main>
 
-      {/* Footer Section */}
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center mt-8">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://www.linkedin.com/in/miguelzepeda1989/" // Replace with your LinkedIn URL
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            className="dark:invert"
-            src="images/linkedin.svg"
-            alt="LinkedIn icon"
-            width={16}
-            height={16}
-          />
-          LinkedIn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://github.com/MoBBsKiLLz" // Replace with your GitHub link
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            className="dark:invert"
-            src="images/github.svg"
-            alt="GitHub icon"
-            width={16}
-            height={16}
-          />
-          GitHub
-        </a>
-        {/* Add more footer links as needed */}
+      <footer className="flex flex-col items-center justify-center gap-4 mt-8 p-6 ">
+        <p className="text-lg">
+          Want to learn more about my skills and experience? Visit my <a href="/about" className="underline hover:text-indigo-400">About page</a>!
+        </p>
+        <div className="flex gap-6 mt-4">
+          <a href="https://www.linkedin.com/in/miguelzepeda1989/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:underline hover:underline-offset-4">
+            <Image aria-hidden className="dark:invert" src="images/linkedin.svg" alt="LinkedIn icon" width={16} height={16} />
+            LinkedIn
+          </a>
+          <a href="https://github.com/MoBBsKiLLz" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:underline hover:underline-offset-4">
+            <Image aria-hidden className="dark:invert" src="images/github.svg" alt="GitHub icon" width={16} height={16} />
+            GitHub
+          </a>
+        </div>
       </footer>
     </div>
   );

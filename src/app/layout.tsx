@@ -27,10 +27,10 @@ export default function RootLayout({
     <html lang="en" className="dark">
       {/* Set dark mode by default, remove this if you want to toggle */}
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background dark:bg-foreground text-foreground dark:text-background`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background dark:bg-foreground text-foreground dark:text-background min-h-screen flex flex-col`}
       >
         {/* Header */}
-        <header className="bg-black dark:bg-gray-200 text-white dark:text-black p-4">
+        <header className="bg-black dark:bg-gray-200 text-white dark:text-black p-4 sticky top-0 z-50 shadow-md bg-opacity-90">
           <div className="container mx-auto flex justify-between items-center">
             <h1 className="text-2xl font-bold">
               <a href="/" className="hover:underline">
@@ -45,17 +45,17 @@ export default function RootLayout({
                   </a>
                 </li>
                 <li>
-                  <a href="#about" className="hover:underline">
+                  <a href="/about" className="hover:underline">
                     About
                   </a>
                 </li>
                 <li>
-                  <a href="#projects" className="hover:underline">
+                  <a href="/projects" className="hover:underline">
                     Projects
                   </a>
                 </li>
                 <li>
-                  <a href="#contact" className="hover:underline">
+                  <a href="/contact" className="hover:underline">
                     Contact
                   </a>
                 </li>
@@ -65,10 +65,10 @@ export default function RootLayout({
         </header>
 
         {/* Main Content Area */}
-        <main className="flex-grow bg-gray-50 dark:bg-black p-8">{children}</main>
+        <main className="flex-1 bg-gray-50 dark:bg-black p-8">{children}</main>
 
         {/* Footer */}
-        <footer className="bg-gray-800 dark:bg-black text-white p-4">
+        <footer className="bg-black dark:bg-gray-200 text-white dark:text-black p-4">
           <div className="container mx-auto text-center">
             <p>
               &copy;
