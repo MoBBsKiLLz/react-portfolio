@@ -7,11 +7,14 @@ const About = () => {
         <main>
         <section className="mb-8">
             <h2 className="text-3xl font-semibold mb-4">About Me</h2>
-            <p className="text-lg">
-            My name is Miguel Zepeda. I am originally from El Paso, Texas and moved to Phoenix, Arizona back in 2008. Since moving here, I found my passion in software. Currently, I work for a software company in the self-storage industry. I decided to complete my bachelor’s degree to help me better advance in my career. With that being said, I am enrolled in the Bachelor of Science in Software Development program here at GCU.
+            <p className="text-md">
+                Hi, I’m Miguel Zepeda. Originally from Texas, I’ve called Arizona home since 2008. Over the years, I’ve developed a strong passion for software and building thoughtful, user-focused solutions.
             </p>
-            <p className="text-lg mt-4">
-            I am currently a Business Analyst at my company, though my responsibilities align more with those of a Product Owner based on industry standards. I manage our team's backlogs, write user stories, and lead team meetings. In the future, I aim to transition into a development role. This course will help me ensure that our team incorporates the development life cycle to an actual product we will deliver. It will also help my understanding of doing research into a new product and how we can solve challenges along the way.
+            <p className="text-md mt-4">
+                I currently work as a Business Analyst at a software company in the self-storage industry, where I manage team backlogs, write user stories, and lead meetings to keep projects moving smoothly. I hold a Bachelor of Science in Software Development from Grand Canyon University, and my background bridges both business and technical perspectives — helping me communicate effectively across teams and contribute to well-rounded product decisions.
+            </p>
+            <p className="text-md mt-4">
+                I’m always learning and evolving, with a growing focus on development. I believe that my combined experience in business analysis and software development allows me to bring a unique and valuable perspective to every project.
             </p>
         </section>
 
